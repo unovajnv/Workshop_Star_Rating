@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rating.css"/>
+
+    <title>Rate Now</title>
+  </head>
+  <body>
+    <div
+    class="header"
+      style="
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        background-color: rgb(197, 197, 119);
+      "
+    >
+      Car Rating
+    </div>
+    <div style="display: flex; justify-content: center; margin: 40px" class="mainContainer">
+      <div>
+        <img
+         class="img"
+          src="assets/mustang.webp"
+          width="600px"
+          height="300px"
+          alt="iamge not available"
+        />
+        <div>
+          <div class="star-rating">
+            <div style="margin-top: 20px; font-size: x-large; margin-right: 250px;">Rate Image</div>
+            <button class="star" value="1" id="star1" onclick="starCount1()">
+              ★
+            </button>
+            <button class="star" value="2" id="star2" onclick="starCount2()">
+              ★
+            </button>
+            <button class="star" value="3" id="star3" onclick="starCount3()">
+              ★
+            </button>
+            <button class="star" value="4" id="star4" onclick="starCount4()">
+              ★
+            </button>
+            <button class="star" value="5" id="star5" onclick="starCount5()">
+              ★
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="rating.js"></script>
+</html>

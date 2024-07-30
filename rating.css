@@ -1,0 +1,23 @@
+.star {
+    font-size: 3rem;
+    color: #ddd; 
+    background-color: white;
+    border: 0px;
+  }
+  .star-rating {
+    display: flex;
+    direction: row;
+    justify-content: end;
+  }
+  .header{
+    height:10vh;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .img{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px 6px rgb(161, 159, 159);
+  }
